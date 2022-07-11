@@ -17,10 +17,12 @@
     <StackPanel Margin="25,40,23,15">
         <local:MyButton Width="140" Height="35" HorizontalAlignment="Left"
                    Text="打开 雾有海 官网" EventType="打开网页" EventData="https://wyh.seayay.icu/" />
-        <local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Margin="0,5,0,5"
-                   Text="整合包 版权申明" EventType="弹出窗口" EventData="版权申明|整合包内模组版权由模组作者所有。" />
-        <local:MyButton Width="250" Height="35" ColorType="Highlight" HorizontalAlignment="Left" Margin="0,5,0,5"
+        <local:MyButton Width="140" Height="35" ColorType="Highlight" HorizontalAlignment="Left" Margin="0,5,0,5"
                  Text="进入 雾有海" EventType="启动游戏" EventData="雾有海 1.12.2|play.seayay.icu" ToolTip="服务器 IP：play.seayay.icu" />
+        <local:MyButton Width="140" Height="35" ColorType="Red" HorizontalAlignment="Left" Margin="0,5,0,5"
+                   Text="整合包 版权申明" EventType="弹出窗口" EventData="版权申明|整合包由 XPlus 2.0 基础整合包 1.12.2 Forge 修改而成，\n整合包内模组版权由模组作者所有。" />
+        <local:MyButton Width="300" Height="35" ColorType="Red" HorizontalAlignment="Left" Margin="0,5,0,5"
+                   Text="XPlus 2.0 基础整合包用户协议与免责声明" EventType="打开网页" EventData="https://shimo.im/docs/0l3NV8a0gWU1Zg3R" />
     </StackPanel>
 </local:MyCard>
 <!-- 
